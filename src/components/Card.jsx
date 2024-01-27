@@ -44,7 +44,7 @@ const Card = ({ datas }) => {
       {currentPageData.map((data) => {
         return (
           <div className="mx-auto" key={data.Id}>
-            <div className="bg-white md:w-72 shadow-md rounded m-3">
+            <div className="bg-white w-96 md:w-72 shadow-md rounded m-3">
               <div className="h-64 w-full">
                 <img
                   className="w-full h-full object-cover rounded-t"
