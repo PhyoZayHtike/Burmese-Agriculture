@@ -12,7 +12,7 @@ const App = () => {
   const fetchData = async() => {
     try{
       setLoading(true)
-      const response = await fetch('../public/BurmeseAgriculture.json')
+      const response = await fetch('../BurmeseAgriculture.json')
       if(!response){
          throw new Error('Data Not Found')
       }
