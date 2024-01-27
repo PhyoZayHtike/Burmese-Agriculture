@@ -6,7 +6,7 @@ const Nav = () => {
     <div className='bg-green-500 p-3 sm:px-0 md:px-20'>
         <Link to={'/'}>
         <div className='flex items-center'>
-        <img className='w-10 md:w-16' src="/public/logo.png" alt="" />
+        <img className='w-10 md:w-16' src="../logo.png" alt="Image" />
         <h3 className='ml-2 font-medium text-xl md:text-3xl text-white'>Burmese Agriculture</h3>
         </div>
         </Link>
